@@ -1,4 +1,4 @@
-# 🚀 Next.js DevOps CI/CD Pipeline on AWS
+#  Next.js DevOps CI/CD Pipeline on AWS
 
 A complete DevOps project demonstrating how a modern web application can be **automatically built, containerized, and deployed to scalable cloud infrastructure** using GitHub Actions, Docker, and AWS.
 
@@ -6,7 +6,7 @@ This project implements a **fully automated CI/CD pipeline** that builds a Next.
 
 ---
 
-# 📌 Project Objective
+#  Project Objective
 
 The goal of this project is to demonstrate how DevOps practices can automate the software delivery lifecycle using cloud-native tools.
 
@@ -21,7 +21,7 @@ The pipeline automatically:
 
 ---
 
-# 🏗️ Architecture
+#  Architecture
 
 ```
 Developer pushes code to GitHub
@@ -47,7 +47,7 @@ Developer pushes code to GitHub
 
 ---
 
-# 🛠️ Tech Stack
+#  Tech Stack
 
 ### Application
 
@@ -73,7 +73,7 @@ Developer pushes code to GitHub
 
 ---
 
-# ⚙️ CI/CD Pipeline Workflow
+#  CI/CD Pipeline Workflow
 
 The deployment pipeline follows these steps:
 
@@ -93,7 +93,7 @@ The deployment pipeline follows these steps:
 
 ---
 
-# 📂 Project Structure
+#  Project Structure
 
 ```
 nextjs-devops-demo
@@ -116,7 +116,7 @@ nextjs-devops-demo
 
 ---
 
-# 🐳 Docker Setup
+#  Docker Setup
 
 Docker is used to package the application for consistent deployment.
 
@@ -141,7 +141,7 @@ CMD ["npm","start"]
 
 ---
 
-# 🔁 GitHub Actions CI/CD Workflow
+#  GitHub Actions CI/CD Workflow
 
 Location:
 
@@ -159,7 +159,7 @@ Pipeline responsibilities:
 
 # ☁️ AWS Infrastructure Setup
 
-### 1️⃣ Amazon ECR
+### 1. Amazon ECR
 
 Container registry used to store Docker images.
 
@@ -171,7 +171,7 @@ nextjs-devops-demo
 
 ---
 
-### 2️⃣ EC2 Instance
+### 2. EC2 Instance
 
 Used to run the Docker container.
 
@@ -189,7 +189,7 @@ Amazon Linux
 
 ---
 
-### 3️⃣ Application Load Balancer
+### 3. Application Load Balancer
 
 Routes incoming user traffic to EC2 instances.
 
@@ -207,7 +207,7 @@ Target group port:
 
 ---
 
-### 4️⃣ Auto Scaling Group
+### 4. Auto Scaling Group
 
 Ensures application availability by maintaining the required number of EC2 instances.
 
@@ -221,7 +221,7 @@ Maximum capacity: 3
 
 ---
 
-# 🔐 Security Configuration
+# Security Configuration
 
 Security groups were configured to allow necessary traffic.
 
@@ -240,7 +240,7 @@ TCP 3000
 
 ---
 
-# 🌐 Application Endpoint
+#  Application Endpoint
 
 Once deployed, the application becomes accessible through the **Load Balancer DNS**.
 
@@ -252,7 +252,7 @@ http://<load-balancer-dns>
 
 ---
 
-# 📈 Key DevOps Concepts Demonstrated
+#  Key DevOps Concepts Demonstrated
 
 This project demonstrates several important DevOps principles.
 
@@ -276,7 +276,7 @@ Application hosted on AWS infrastructure.
 
 ---
 
-# 🎯 Learning Outcomes
+#  Learning Outcomes
 
 Through this project, the following skills were developed:
 
@@ -290,7 +290,7 @@ Through this project, the following skills were developed:
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 Possible improvements to enhance this project:
 
