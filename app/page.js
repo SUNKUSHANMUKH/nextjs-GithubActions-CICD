@@ -3,7 +3,7 @@ import StatusCard from "../components/StatusCard";
 export default function Home() {
   return (
     <main style={{padding:"40px", fontFamily:"Arial"}}>
-      <h1>🚀 DevOps CI/CD Demo Application</h1>
+      <h1>🚀 DevOps CI/CD Demo Application - Version 2</h1>
 
       <p>
         This Next.js application is deployed using a CI/CD pipeline with
