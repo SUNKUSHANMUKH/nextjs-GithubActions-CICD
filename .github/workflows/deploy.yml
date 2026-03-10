@@ -39,3 +39,9 @@ jobs:
         run: |
           docker push \
           ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/${{ secrets.ECR_REPOSITORY }}:latest
+
+      - name: Refresh Auto Scaling Instances
+        run: |
+          aws autoscaling start-instance-refresh \
+          --auto-scaling-group-name nextjs-demo-AS \
+          --region ap-south-2
