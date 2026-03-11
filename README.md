@@ -45,7 +45,7 @@ Developer pushes code to GitHub
           Users
 ```
 
-<img width="1536" height="1024" alt="pipeline architecture " src="https://github.com/user-attachments/assets/85b2bfa0-bfcf-4209-94ca-308b1f9532ff" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f8a13928-7af6-49ae-b9b6-be2b154ea13b" />
 
 <img width="8679" height="4306" alt="github ACTION DIagram" src="https://github.com/user-attachments/assets/a7a783b3-8233-47cb-af8b-e99c86d10420" />
 
