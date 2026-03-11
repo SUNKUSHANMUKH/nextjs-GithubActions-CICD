@@ -81,19 +81,31 @@ Developer pushes code to GitHub
 
 The deployment pipeline follows these steps:
 
-1️⃣ Developer pushes code to GitHub
+1  Developer pushes code to GitHub
 
-2️⃣ GitHub Actions triggers the workflow
+2  GitHub triggers GitHub Actions CI/CD workflow
 
-3️⃣ Application is built and Docker image is created
+3  CI/CD builds the Next.js application
 
-4️⃣ Docker image is pushed to **Amazon ECR**
+4  Docker image is created
 
-5️⃣ EC2 instances pull the latest container image
+5  Image is pushed to Amazon ECR
 
-6️⃣ Docker container runs the Next.js application
+6  Auto Scaling Group launches or refreshes EC2 instances
 
-7️⃣ Application Load Balancer routes traffic to instances
+7  EC2 instances authenticate with Amazon ECR
+
+8  Docker container image is pulled from ECR
+
+9  Next.js container starts on EC2
+
+10 Application Load Balancer receives user traffic
+
+11 Load Balancer routes requests to healthy EC2 instances
+
+12 Target Group health checks ensure application availability
+
+13 Logs and metrics are sent to Amazon CloudWatch
 
 ---
 
